@@ -1,0 +1,38 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px; 
+    margin-bottom: 10px; 
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.cardLabel {
+    display: block;
+}
+
+img {
+    width: 200px; 
+    margin: auto; /* Center the image horizontally */
+}
+
+img:hover {
+    transform: scale(1.3); /* Scale the image by 10% on hover */
+}
+
+#redBtn { background-color: rgb(250, 160, 160); }
+#yellowBtn { background-color: rgb(255, 255, 192); }
+#silverBtn { background-color: silver; }
+#blackBtn { background-color: black; color: white; } /* Adjust text color for visibility */
+#blueBtn { background-color: rgb(174, 224, 253); }
+#whiteBtn { background-color: white; }
+#orangeBtn { background-color: rgb(255, 221, 142); }
+#greenBtn { background-color: rgb(195, 251, 195); }
